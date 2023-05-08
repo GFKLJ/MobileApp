@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.Create_VuborOsnova">
+    <ScrollView>
+        <StackLayout BackgroundColor="LightGray">
+            <Frame BackgroundColor="White" CornerRadius="20" Margin="5,10,5,0">
+                <StackLayout>
+                    <Label Text="Основная часть" HorizontalOptions="Center" TextColor="Black" FontSize="30" FontAttributes="Bold"/>
+                    <ImageButton x:Name="hands_create" Source="hands_create" CornerRadius="20" Clicked="ImageButton_Clicked"
+                                 BackgroundColor="#FFFFFF" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton x:Name="hands_back" Source="hands_back" CornerRadius="20" Clicked="ImageButton_Clicked1_1" IsVisible="false"
+                                 BackgroundColor="#FFFFFF" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <StackLayout x:Name="hands" IsVisible="false">
+                        <ImageButton Source="pushups_classic" BackgroundColor="#FFFFFF" Clicked="Push_Ups_Classic"
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="pushups_obratnue" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="pushups_uzko" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="biceps" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+
+                    </StackLayout>
+                    <ImageButton x:Name="legs_create" Source="legs_create" CornerRadius="20" Clicked="ImageButton_Clicked_1" 
+                                 BackgroundColor="#FFFFFF" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton x:Name="legs_back" Source="legs_back" CornerRadius="20" Clicked="ImageButton_Clicked_1_1" IsVisible="false"
+                                 BackgroundColor="#FFFFFF" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <StackLayout x:Name="legs" IsVisible="false">
+                        <ImageButton Source="prised_koleno" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="prised_socks" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="vupadu" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="vupadu_back" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    </StackLayout>
+                    <ImageButton x:Name="press_create" Source="press_create" CornerRadius="20" Clicked="ImageButton_Clicked_2" 
+                                 Background="#FFFFFF" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton x:Name="press_back" Source="press_back" CornerRadius="20" Clicked="ImageButton_Clicked_2_1" IsVisible="false"
+                                 Background="#FFFFFF" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <StackLayout x:Name="press" IsVisible="false">
+                        <ImageButton Source="twist" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="twist_hands" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="prived_koleno" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="poduem" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    </StackLayout>
+                    <ImageButton x:Name="grud_create" Source="grud_create" CornerRadius="20" Clicked="ImageButton_Clicked_3" 
+                                 BackgroundColor="#FFFFFF" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton x:Name="grud_back" Source="grud_back" CornerRadius="20" Clicked="ImageButton_Clicked_3_1" IsVisible="false"
+                                 BackgroundColor="#FFFFFF" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <StackLayout x:Name="grud" IsVisible="false">
+                        <ImageButton Source="gantela" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="razved_gantela" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    </StackLayout>
+                    <ImageButton x:Name="back_create" Source="back_create" CornerRadius="20" Clicked="ImageButton_Clicked_4" 
+                                 BackgroundColor="#FFFFFF" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton x:Name="back_back" Source="back_back" CornerRadius="20" Clicked="ImageButton_Clicked_4_1" IsVisible="false"
+                                 BackgroundColor="#FFFFFF" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <StackLayout x:Name="back" IsVisible="false">
+                        <ImageButton Source="lodka" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="gantela_nadgolovoi" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="taga_gantela" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                        <ImageButton Source="shuka" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

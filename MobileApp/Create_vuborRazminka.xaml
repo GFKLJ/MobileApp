@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.Create_vuborRazminka">
+    <ScrollView>
+        <StackLayout BackgroundColor="LightGray">
+            <Frame BackgroundColor="White" CornerRadius="20" Margin="5,10,5,0">
+                <StackLayout>
+                    <Label Text="Разминка" HorizontalOptions="Center" TextColor="Black" FontSize="30" FontAttributes="Bold"/>
+                    <ImageButton Source="vrash_golova" BackgroundColor="#FFFFFF" Clicked="Opis1_1"
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="vrash_plechi" BackgroundColor="#FFFFFF" Clicked="Opis1_2"
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="vrash_plechi2" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="vrash_kisti" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="vrash_predplechi" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="vrash_korpus" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="golen_yagodichi" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="bedro_korpus" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="imitation" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="vrash_taz" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="machi" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

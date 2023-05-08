@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.Create_vuborZaminka">
+    <ScrollView>
+        <StackLayout BackgroundColor="LightGray">
+            <Frame BackgroundColor="White" CornerRadius="20" Margin="5,10,5,0">
+                <StackLayout>
+                    <Label Text="Заминка" HorizontalOptions="Center" TextColor="Black" FontSize="30" FontAttributes="Bold"/>
+                    <ImageButton Source="ruki_nadgolovoi" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="ruki_vsoronu" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="taga_back" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="taga_grud" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="taga_kisti" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="taga_nogi" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="taga_povorot" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="taga_triceps" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="taga_yagodichi" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                    <ImageButton Source="child_pose" BackgroundColor="#FFFFFF" 
+                                 CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
