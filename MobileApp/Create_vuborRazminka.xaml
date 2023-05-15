@@ -11,23 +11,23 @@
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
                     <ImageButton Source="vrash_plechi" BackgroundColor="#FFFFFF" Clicked="Opis1_2"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="vrash_plechi2" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="vrash_plechi2" BackgroundColor="#FFFFFF" Clicked="Opis1_3"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="vrash_kisti" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="vrash_kisti" BackgroundColor="#FFFFFF" Clicked="Opis1_4"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="vrash_predplechi" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="vrash_predplechi" BackgroundColor="#FFFFFF" Clicked="Opis1_5"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="vrash_korpus" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="vrash_korpus" BackgroundColor="#FFFFFF" Clicked="Opis1_6"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="golen_yagodichi" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="golen_yagodichi" BackgroundColor="#FFFFFF" Clicked="Opis1_7"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="bedro_korpus" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="bedro_korpus" BackgroundColor="#FFFFFF" Clicked="Opis1_8"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="imitation" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="imitation" BackgroundColor="#FFFFFF" Clicked="Opis1_9"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="vrash_taz" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="vrash_taz" BackgroundColor="#FFFFFF" Clicked="Opis1_10"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="machi" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="machi" BackgroundColor="#FFFFFF" Clicked="Opis1_11"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
 
                 </StackLayout>

@@ -81,9 +81,77 @@ namespace MobileApp
             back_create.IsVisible = true;
             back_back.IsVisible = false;
         }
-        private async void Push_Ups_Classic(object sender, EventArgs e)
+        private async void Opis2_1_1(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Opis2_1_1());
+        }
+        private async void Opis2_1_2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_1_2());
+        }
+        private async void Opis2_1_3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_1_3());
+        }
+        private async void Opis2_1_4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_1_4());
+        }
+        private async void Opis2_2_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_2_1());
+        }
+        private async void Opis2_2_2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_2_2());
+        }
+        private async void Opis2_2_3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_2_3());
+        }
+        private async void Opis2_2_4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_2_4());
+        }
+        private async void Opis2_3_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_3_1());
+        }
+        private async void Opis2_3_2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_3_2());
+        }
+        private async void Opis2_3_3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_3_3());
+        }
+        private async void Opis2_3_4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_3_4());
+        }
+        private async void Opis2_4_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_4_1());
+        }
+        private async void Opis2_4_2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_4_2());
+        }
+        private async void Opis2_5_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_5_1());
+        }
+        private async void Opis2_5_2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_5_2());
+        }
+        private async void Opis2_5_3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_5_3());
+        }
+        private async void Opis2_5_4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Opis2_5_4());
         }
     }
 }

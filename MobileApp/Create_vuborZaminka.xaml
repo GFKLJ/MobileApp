@@ -7,25 +7,25 @@
             <Frame BackgroundColor="White" CornerRadius="20" Margin="5,10,5,0">
                 <StackLayout>
                     <Label Text="Заминка" HorizontalOptions="Center" TextColor="Black" FontSize="30" FontAttributes="Bold"/>
-                    <ImageButton Source="ruki_nadgolovoi" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="ruki_nadgolovoi" BackgroundColor="#FFFFFF" Clicked="Opis3_1"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="ruki_vsoronu" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="ruki_vsoronu" BackgroundColor="#FFFFFF" Clicked="Opis3_2"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="taga_back" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="taga_back" BackgroundColor="#FFFFFF" Clicked="Opis3_3"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="taga_grud" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="taga_grud" BackgroundColor="#FFFFFF" Clicked="Opis3_4"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="taga_kisti" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="taga_kisti" BackgroundColor="#FFFFFF" Clicked="Opis3_5"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="taga_nogi" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="taga_nogi" BackgroundColor="#FFFFFF" Clicked="Opis3_6"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="taga_povorot" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="taga_povorot" BackgroundColor="#FFFFFF" Clicked="Opis3_7"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="taga_triceps" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="taga_triceps" BackgroundColor="#FFFFFF" Clicked="Opis3_8"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="taga_yagodichi" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="taga_yagodichi" BackgroundColor="#FFFFFF" Clicked="Opis3_9"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
-                    <ImageButton Source="child_pose" BackgroundColor="#FFFFFF" 
+                    <ImageButton Source="child_pose" BackgroundColor="#FFFFFF" Clicked="Opis3_10"
                                  CornerRadius="20" Aspect="AspectFill" Padding="0,5,0,0"/>
                 </StackLayout>
             </Frame>
